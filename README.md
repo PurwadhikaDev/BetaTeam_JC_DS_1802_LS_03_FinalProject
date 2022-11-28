@@ -4,7 +4,7 @@
 
 By:
 1. Nadia Puspitasari
-2. Matthew Nicholas
+2. Matthew Nicholas Lengkey
 3. Rayhan Romy Syahputra
 
 ### Context
