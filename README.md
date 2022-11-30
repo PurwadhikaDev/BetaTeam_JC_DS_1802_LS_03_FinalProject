@@ -115,6 +115,7 @@ Note:
 | Churn | Integer | 0 - customer who have not churned; 1 customer who churned |
 
 3. Exploratory Data Analysis
+
 Setelah dibuatkannya visualisasi atas distribusi data dan korelasi data antar variabel, selanjutnya akan dilakukan data analisis. Sebelum dilakukan analisis, kami memiliki asumsi-asumsi terkait analisis customer churn ini. Adapun asumsi kami akan dituangkan dalam beberapa pertanyaan sebagai berikut:
 - Apakah customer yang berhenti menggunakan langganan ecommerce berhenti di awal bulan penggunaan layanan?
 - Apakah customer yang mengajukan complain cenderung berhenti menggunakan layanan ecommerce?
@@ -126,16 +127,14 @@ Setelah dibuatkannya visualisasi atas distribusi data dan korelasi data antar va
 - Apakah customer laki-laki dan customer yang sudah menikah yang lebih banyak berhenti dari layanan ecommerce?
 
 4. Preprocessing
+
 Tahapan preprocessing yang dilakukan sebelum modeling
+- Remove Data Duplication
+- Fill Missing Values
+- Encoding
+- Scaling
 
-Remove Data Duplication
-Fill Missing Values
-Encoding
-Scaling
-
-
-5. Methodology (Modeling/Analysis)
-Analisis lengkap terlampir pada notebook
+5. Modeling (analisis lengkap terlampir pada notebook)
 
 6. Conclusion and Recommendation
 
