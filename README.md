@@ -114,7 +114,7 @@ Note:
 | CashbackAmount | Float | Average cashback in last month |
 | Churn | Integer | 0 - customer who have not churned; 1 customer who churned |
 
-3. Exploratory Data Analysis
+## Exploratory Data Analysis
 
 Setelah dibuatkannya visualisasi atas distribusi data dan korelasi data antar variabel, selanjutnya akan dilakukan data analisis. Sebelum dilakukan analisis, kami memiliki asumsi-asumsi terkait analisis customer churn ini. Adapun asumsi kami akan dituangkan dalam beberapa pertanyaan sebagai berikut:
 - Apakah customer yang berhenti menggunakan langganan ecommerce berhenti di awal bulan penggunaan layanan?
@@ -126,7 +126,7 @@ Setelah dibuatkannya visualisasi atas distribusi data dan korelasi data antar va
 - Apakah customer yang login menggunakan handphone lebih banyak yang berhenti dari layanan ecommerce?
 - Apakah customer laki-laki dan customer yang sudah menikah yang lebih banyak berhenti dari layanan ecommerce?
 
-4. Preprocessing
+## Preprocessing
 
 Tahapan preprocessing yang dilakukan sebelum modeling
 - Remove Data Duplication
@@ -134,9 +134,11 @@ Tahapan preprocessing yang dilakukan sebelum modeling
 - Encoding
 - Scaling
 
-5. Modeling (analisis lengkap terlampir pada notebook)
+## Modeling 
 
-6. Conclusion and Recommendation
+Analisis lengkap terlampir pada notebook.
+
+## Conclusion and Recommendation
 
 ### Conclusion
 Berdasarkan hasil classification report dari model kita, kita dapat menyimpulkan/mengambil konklusi bahwa bila seandainya nanti kita menggunakan model kita untuk memprediksi customer yang churn atau tidak, berdasarkan hasil f2score oleh model LGBM, kita mendapatkan akurasi f2score 0.849 sebelum hyperparameter tuning. Setelah melakukan hyperparameter tuning hasil meningkat menjadi 0.898. Untuk hasil yang tidak akurat, kita menitikberatkan ke False Negative karena lebih merugikan dibandingkan False Positive
