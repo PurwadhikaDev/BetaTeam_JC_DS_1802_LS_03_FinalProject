@@ -159,7 +159,7 @@ Perbandingan dengan sampel (20%/100%)
 - 188100 USD * 20% = **37620 USD**
 - Jumlah penghematan => 0 USD
 
-sehingga potensi biaya promosi yang dikeluarkan menjadi lebih banyak. Kita memberikan asumsi sekitar 50% customer yang churn akan menetap bila diberi promosi dan sisanya akan tetap churn. 
+sehingga potensi biaya promosi yang dikeluarkan menjadi lebih banyak.
 
 Dengan model (Test set yakni 20%):
 
